@@ -3,15 +3,10 @@ import Image from "next/image";
 
 // Import react icons
 import {
-  WiThermometer,
-  WiHumidity,
-  WiSunrise,
-  WiSunset,
   WiRain,
 } from "react-icons/wi";
-import { TbArrowNarrowDown, TbArrowNarrowUp, TbWind } from "react-icons/tb";
 
-const ForecastDaily = ( { title } ) => {
+const ForecastDaily = ({ title }) => {
 
   const statusURL = "https://openweathermap.org/img/wn/";
 

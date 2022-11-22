@@ -1,18 +1,6 @@
-import Image from "next/image";
-
 // Import components
 import TimeAndDate from "./TimeAndDate";
 import Location from "./Location";
-
-// Import react icons
-import {
-  WiThermometer,
-  WiHumidity,
-  WiSunrise,
-  WiSunset,
-  WiDayCloudy,
-} from "react-icons/wi";
-import { TbArrowNarrowDown, TbArrowNarrowUp, TbWind } from "react-icons/tb";
 import CurrentWeather from "./CurrentWeather";
 import ForecastHourly from "./ForecastHourly";
 import ForecastDaily from "./ForecastDaily";
