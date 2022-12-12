@@ -11,7 +11,7 @@ import {
 } from "react-icons/wi";
 import { TbArrowNarrowDown, TbArrowNarrowUp, TbWind } from "react-icons/tb";
 
-const CurrentWeather = () => {
+const CurrentWeather = ( { weather }) => {
 
   const statusURL = "https://openweathermap.org/img/wn/";
 
@@ -21,6 +21,7 @@ const CurrentWeather = () => {
       <div className="flex justify-between items-center mt-12 pr-4 md:px-12">
         {/* Weather status and description */}
         <div className="flex flex-col items-center">
+          {/* <WiDayCloudy size={50} /> */}
           <Image
             src={`${statusURL}03d@2x.png`}
             width={80}
